@@ -149,3 +149,5 @@ Write a Python script that does the following:
 
 ```
 
+###### ⏭️ Next Lesson
+[**Module 1 — Lesson 03: Integers and Floats**](obsidian://open?vault=Tech-Academy&file=computer-science%2FPython%2FLessons%2FModule%201%20-%20Core%20Concepts%2F03-Intergers-and-Floats)
