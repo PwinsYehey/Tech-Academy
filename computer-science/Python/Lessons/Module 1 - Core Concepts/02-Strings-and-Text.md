@@ -116,7 +116,7 @@ print(word[-1]) # Output: n (the last letter)
 ```
 ___
 ## 🛠️ Practice Playground
-Run this block using your **Execute Code** plugin to see string magic in action:
+Click the **Run** button on the code block below to test it out:
 
 ```python
 raw_username = "   pRiNcE_sKyWaLkEr   "

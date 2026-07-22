@@ -13,6 +13,7 @@ ___
 ## 🔢 The Two Number Types
 ### Integers (`int`)
 Numbers without fractions or decimal points. They include all negative numbers, zero, and positive numbers.
+
 ```python
 score = 100
 temperature = -5
@@ -20,6 +21,7 @@ players = 0
 ```
 ### Floats (`float`)
 Numbers that contain a decimal point. Python automatically flags any number with a dot as a float.
+
 ```python
 price = 19.99
 pi = 3.14159
@@ -29,15 +31,15 @@ ___
 ## ➕ Basic Math Operators
 Python uses standard math symbols, but with a couple of unique twists for division.
 
-| Operator | Action | Example Code | Result |
-| :--- | :--- | :--- | :--- |
-| `+` | Addition | `10 + 5` | `15` |
-| `-` | Subtraction | `10 - 5` | `5` |
-| `*` | Multiplication | `10 * 5` | `50` |
-| `/` | **True Division** | `10 / 3` | `3.3333333333333335` |
-| `//` | **Floor Division** | `10 // 3` | `3` (Cuts off the decimal!) |
-| `%` | **Modulo** (Remainder) | `10 % 3` | `1` (The leftover amount) |
-| `**` | Exponent (Power) | `2 ** 3` | `8` (2³) |
+| Operator | Action                 | Example Code | Result                       |
+| :------- | :--------------------- | :----------- | :--------------------------- |
+| `+`      | Addition               | `10 + 5`     | `15`                         |
+| `-`      | Subtraction            | `10 - 5`     | `5`                          |
+| `*`      | Multiplication         | `10 * 5`     | `50`                         |
+| `/`      | **True Division**      | `10 / 3`     | `3.3333333333333335`         |
+| `//`     | **Floor Division**     | `10 // 3`    | `3` (Forcefully rounds down) |
+| `%`      | **Modulo** (Remainder) | `10 % 3`     | `1` (The leftover amount)    |
+| `**`     | Exponent (Power)       | `2 ** 3`     | `8` (2³)                     |
 >[!WARNING]
 True division (`/`) **always** returns a float, even if the number divides perfectly!
 
@@ -48,6 +50,7 @@ When you write a complex mathematical equation on a single line, Python does not
 2. **E**xponents `**` Powers/Roots are calculated next.
 3. **M**ultiplication & **D**ivision (`*`, `/`, `//`, `%`) Checked from left to right.
 4. **A**ddition & **S**ubtraction (`+`, `-`) Checked last, from left to right.
+
 ```python
 # PEMDAS Example
 calculation = (2 + 3) * 4 ** 2
@@ -57,9 +60,9 @@ calculation = (2 + 3) * 4 ** 2
 print(calculation)  # Output: 80
 ```
 
-
 ## 🔄 Shortcuts: Augmented Assignment
 When updating a numeric variable, you can combine the math operator with the `=` sign to save typing.
+
 ```python
 gold_coins = 50
 
@@ -90,6 +93,7 @@ print(round(abs(my_balance))) # Output: 46
 ---
 ## 🛠️ Practice Playground
 Click the **Run** button on the code block below to test and see how different number data types interact:
+
 ```python
 # Change these values and hit Run!
 item_price = 2.50
@@ -131,6 +135,7 @@ ___
 When rounding decimal numbers for currency, Python's `round()` function will automatically drop trailing zeros. For example, `$53.50` will print as `$53.5`.
 
 To force Python to always display exactly **two decimal places** for money, skip `round()` and use the `:.2f` formatting rule inside your f-string.
+
 ```python
 price = 53.50
 
@@ -142,4 +147,4 @@ print(f"Price: {price:.2f}")       # Output: \$53.50
 ```
 
 ###### ⏭️ Next Lesson
-[**Module 1 — Lesson 04: Booleans and Logic**](obsidian://open?vault=Tech-Academy&file=computer-science%2FPython%2FLessons%2FModule%201%20-%20Core%20Concepts%2F03-Intergers-and-Floats](obsidian://open?vault=Tech-Academy&file=computer-science%2FPython%2FLessons%2FModule%201%20-%20Core%20Concepts%2F04-Booleans-and-Logic)
+[**Module 1 — Lesson 04: Booleans and Logic**](obsidian://open?vault=Tech-Academy&file=computer-science%2FPython%2FLessons%2FModule%201%20-%20Core%20Concepts%2F04-Booleans-and-Logic)

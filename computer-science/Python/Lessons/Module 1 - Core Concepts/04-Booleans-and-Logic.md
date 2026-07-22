@@ -3,7 +3,7 @@ tags:
   - python/basics
   - core-concepts
 links:
-  - "[[Python Roadmap]]"
+  - "[[Python MOC]]"
 date_created: 2026-07-21
 ---
 # Booleans and Logic
@@ -36,6 +36,7 @@ You can chain multiple comparison checks together using the three logical operat
 
 ### 🤝 `and` (Both must be True)
 Returns `True` only if **every single condition** is true. If even one part is false, the whole thing becomes false.
+
 ```python
 is_weekend = True
 is_sunny = False
@@ -48,6 +49,7 @@ print(go_to_beach)  # Output: False
 
 ### 🚪 `or` (At least one must be True)
 Returns `True` if **at least one** condition is true. It only returns false if every single item is false.
+
 ```python
 has_cash = False
 has_card = True
@@ -60,6 +62,7 @@ print(can_buy_food)  # Output: True
 
 ### 🔄 `not` (The Inverter)
 Flips a Boolean value to its exact opposite. It turns `True` into `False`, and `False` into `True`.
+
 ```python
 is_locked = True
 
@@ -69,6 +72,7 @@ print(is_open)  # Output: False
 ___
 ## 🛠️ Practice Playground
 Run this block in your vault to see how logic gates combine to check complex conditions:
+
 ```python
 # Player Stats
 player_level = 12
