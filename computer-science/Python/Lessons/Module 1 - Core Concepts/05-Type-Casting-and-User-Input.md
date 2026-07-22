@@ -97,15 +97,9 @@ Write a Python script that does the following:
    ```
 ### 💻 Write Your Code Here
 ```python
-username = str(input(f"Enter Username: "))
-level = int(input(f"Enter Current Level: "))
 
-xp_bonus = level * 1.5
 
-print("--- PLAYER REGISTERED ---")
-print(f"Wecome, {username}")
-print(f"Starting level: {level}")
-print(f"Your calculated XP Bonus modifier is: {xp_bonus}")
+
 ```
 ###### ⏭️ Next Lesson
 [**Module 1 — Lesson 06: Conditional Statements**](obsidian://open?vault=Tech-Academy&file=computer-science%2FPython%2FLessons%2FModule%201%20-%20Core%20Concepts%2F06-Conditional-Statements)
