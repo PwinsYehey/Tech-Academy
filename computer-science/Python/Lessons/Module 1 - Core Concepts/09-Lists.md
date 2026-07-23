@@ -8,13 +8,13 @@ date_created: 2026-07-23
 ---
 # Lists
 
-A **list** is an **ordered (index)** and **changeable (mutable)** collection of items wrapped inside **square brackets `[]`**. 
+A **list** (`list` data type) is an **ordered (index)** and **changeable (mutable)** collection of items wrapped inside **square brackets `[]`**. 
 
 Lists **can hold any data type**, including strings, integers, floats, and booleans.
 
-Instead of creating 5 different variables for 5 items, you can store them all inside a single list container.
+Instead of creating 5 different variables for 5 items, you can **store them all inside a single list container**.
 ___
-## 🏗️ 1. Creating and Indexing Lists
+## 🏗️ Creating and Indexing Lists
 Lists are **ordered**. This means every item you put inside a list receives a permanent address number called an **index**, starting exactly at **0**. Python will always remember this sequence.
 
 ```python
@@ -118,16 +118,9 @@ Write a Python script that does the following:
 6. Use a `for` loop to iterate through your final sorted leaderboard and print out each score on its own line like this: `"🏆 Top Score: [Score Value]"`.
 ### 💻 Write Your Code Here
 ```python
-leaderboard = [450, 1200, 890]
 
-leaderboard.append(1500)
-leaderboard.remove(450)
 
-print(f"Total active scores: {len(leaderboard)}")
-leaderboard.sort(reverse=True)
 
-for score in leaderboard:
-    print(f"Top Score: {score}")
 ```
 
 ### 💻 Assignment
