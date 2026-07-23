@@ -39,6 +39,7 @@ Because `input()` only returns text strings, trying to do math with an input val
 ___
 ## 🚨 The Dangerous Mistake: Forgetting to Cast
 Look at what happens if you forget to convert your user inputs before doing math:
+
 ```python
 # Enter your first and second number
 num1 = input("Enter first number: ")
@@ -52,6 +53,7 @@ print(bad_total)
 
 ### 🛠️ The Fix: Immediate Wrapping
 To fix this, professional programmers wrap the `input()` function directly inside a casting function like `int()` or `float()` on a single line:
+
 ```python
 # Convert the text into a real integer immediately upon entry
 age = int(input("Enter your age: ")) 
@@ -64,6 +66,7 @@ print(f"In 100 years you will be {age + 100}")
 ___
 ## 🛠️ Practice Playground
 Click the **Run** button on the code block below to test it out:
+
 ```python
 # Simulating an input value that came in as a string
 birth_year_input = "2002" 
@@ -89,6 +92,7 @@ Write a Python script that does the following:
 3. **Type cast** the level input into a real integer immediately so you can use it for calculations.
 4. Calculate a variable called `xp_bonus` by multiplying their level by `1.5`.
 5. Use an **f-string** to display a player card that outputs exactly like this:
+
    ```text
    --- PLAYER REGISTERED ---
    Welcome, [Username]!
@@ -101,5 +105,6 @@ Write a Python script that does the following:
 
 
 ```
+
 ###### ⏭️ Next Lesson
 [**Module 1 — Lesson 06: Conditional Statements**](obsidian://open?vault=Tech-Academy&file=computer-science%2FPython%2FLessons%2FModule%201%20-%20Core%20Concepts%2F06-Conditional-Statements)

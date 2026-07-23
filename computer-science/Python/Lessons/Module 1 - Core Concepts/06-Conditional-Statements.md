@@ -14,6 +14,7 @@ ___
 Python checks conditions from top to bottom. It will execute the code block of the **very first** condition that is true, and then skip all remaining blocks completely.
 ### 📐 The Indentation Rule
 Unlike other languages that use brackets `{}`, Python relies entirely on **whitespace indentation** (usually 4 spaces or 1 tab) to know which lines belong inside a condition box. If you forget to indent, Python will throw an `IndentationError`.
+
 ```python
 score = 85
 
@@ -25,6 +26,7 @@ ___
 ## 🚦 The 3 Control Keywords
 ### 1️⃣ Using `if` (The Initial Gate)
 The starting point of any conditional check. You use a standalone `if` when you only care about checking one specific condition. If that condition is false, Python skips the block entirely and moves on.
+
 ```python
 score = 95
 
@@ -37,6 +39,7 @@ if score >= 90:
 
 ### 2️⃣ Adding `elif` (The Backup Options)
 We use `elif` (short for "Else If") to chain additional specific checks (chain as many as you want). Python checks them in order and stops the moment it finds a `True` match.
+
 ```python
 score = 85
 
@@ -52,6 +55,7 @@ elif score >= 70:
 
 ### 3️⃣ Level 3: Adding `else` (The Safety Net Catch-All)
 We place `else` at the absolute bottom. It requires no condition text because it automatically runs if **every single check above fails**.
+
 ```python
 score = 45
 
@@ -68,6 +72,7 @@ else:
 ---
 ## 🪆 Nested Conditionals (Conditions Inside Conditions)
 You can place an entire `if` statement inside another `if` statement to perform deeper, multi-layered verifications.
+
 ```python
 has_ticket = True
 is_vip = False
@@ -85,6 +90,7 @@ else:
 ___
 ## 🛠️ Practice Playground
 Run this interactive test snippet in your vault. Change the values to simulate different scenarios:
+
 ```python
 # System setup
 user_role = "moderator"  # Try changing to: "admin", "user", "guest"
@@ -120,24 +126,6 @@ Write a Python script that does the following:
 	* *(Hint: Use your currency formatting trick `:.2f` here to force trailing zeros!)*
 ### 💻 Write Your Code Here
 ```python
-age = int(input("Enter your age: "))
-
-have_student_card = bool(input("Do you have student card? (yes/no): "))
-
-student_price = 5.00
-senior_price = 7.00
-standard_price = 12.00
-
-if age < 12:
-	print(f"Final ticket price is: {student_price: .2f}") 
-elif age >= 65:
-	print(f"Final ticket price is: {senior_price: .2f}") 
-else:
-	if have_student_card == False:
-		print(f"Final ticket price is: {standard_price: .2f}")
-	else:
-		discount_price = standard_price - 3.00
-		print(f"Final ticket price is: {discounted_price: .2f}")
 
 
 
