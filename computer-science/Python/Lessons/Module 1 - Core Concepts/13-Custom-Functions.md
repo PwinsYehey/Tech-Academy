@@ -143,4 +143,4 @@ Write a Python script that does the following:
 ```
 
 ###### ⏭️ Next Lesson
-[**Module 1 — Lesson 13: Sets**](obsidian://open?vault=Tech-Academy&file=computer-science%2FPython%2FLessons%2FModule%201%20-%20Core%20Concepts%2F14-Scope)
+[**Module 1 — Lesson 14: Sets**](obsidian://open?vault=Tech-Academy&file=computer-science%2FPython%2FLessons%2FModule%201%20-%20Core%20Concepts%2F14-Scope)
