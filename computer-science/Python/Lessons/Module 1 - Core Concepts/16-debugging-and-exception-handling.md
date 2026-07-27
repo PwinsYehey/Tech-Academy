@@ -3,7 +3,7 @@ tags:
   - python/troubleshooting
   - core-concepts
 links:
-  - "[[Python MOC]]"
+  - "[[python_roadmap]]"
 date_created: 2026-07-27
 ---
 # Debugging and Exception Handling

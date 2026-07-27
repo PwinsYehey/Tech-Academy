@@ -3,7 +3,7 @@ tags:
   - python/file-handling
   - core-concepts
 links:
-  - "[[Python MOC]]"
+  - "[[python_roadmap]]"
 date_created: 2026-07-27
 ---
 # File Handling (File I/O)

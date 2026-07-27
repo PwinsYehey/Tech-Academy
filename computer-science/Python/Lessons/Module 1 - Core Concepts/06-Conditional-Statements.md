@@ -3,7 +3,7 @@ tags:
   - python/control-flow
   - core-concepts
 links:
-  - "[[Python MOC]]"
+  - "[[python_roadmap]]"
 date_created: 2026-07-22
 ---
 # Conditional Statements (`if`, `elif`, `else`)

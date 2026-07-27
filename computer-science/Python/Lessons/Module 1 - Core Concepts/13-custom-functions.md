@@ -3,7 +3,7 @@ tags:
   - python/architecture
   - core-concepts
 links:
-  - "[[Python MOC]]"
+  - "[[python_roadmap]]"
 date_created: 2026-07-25
 ---
 # Custom Functions

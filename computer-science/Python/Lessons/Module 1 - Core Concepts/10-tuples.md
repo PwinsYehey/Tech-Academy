@@ -3,7 +3,7 @@ tags:
   - python/data-structures
   - core-concepts
 links:
-  - "[[Python MOC]]"
+  - "[[python_roadmap]]"
 date_created: 2026-07-24
 ---
 # Tuples
