@@ -20,6 +20,11 @@ When you open a file, you must pass Python a specific **mode character** to dict
 | **`"w"`** | **Write**  | **Creates** a fresh file to inject text.       | **🚨 WARNING:** Overwrites and destroys existing data! |
 | **`"a"`** | **Append** | **Opens** a file to **add lines** to the back. | Safely attaches new lines without deleting old data.   |
 | **`"r"`** | **Read**   | **Opens** a file to **extract text**.          | Throws an error if the file doesn't exist!             |
+>[!NOTE] Auto-Creation Rule
+>Append mode (`"a"`) **automatically creates the blank file if it does not exist on your hard drive**. You never need to use `"w"` first.
+
+* Use **Append (`"a"`)** if the data is a **timeline collection** where history matters (banking ledgers, chat histories, calculator logs).
+- Use **Write (`"w"`)** if the data is a **snapshot collection** where only the current state matters (daily stats, current settings, data flushes).
 ___
 ## 🔒 The Professional Standard: The `with` Context Manager
 In older programming models, you had to manually open and close a file stream using `file.close()`. If your script crashed midway, the file connection stayed trapped open in memory, corrupting the file.
