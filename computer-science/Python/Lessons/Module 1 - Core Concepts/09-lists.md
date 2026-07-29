@@ -29,7 +29,7 @@ print(arcade_games[-1])  # Output: Doom   (The last item shortcut)
 
 ___
 ## 🧳Modifying List with Methods (With Dots `.`)
-Lists are **changeable** (mutable). Once a list is created, you can add, delete, or extract items dynamically using their own built-in methods.
+Lists are **changeable** (mutable). Once a list is created, you can **add**, **delete**, or **extract** items dynamically using their own built-in methods.
 
 | Method               | What it does                                            | Example Code              | Resulting List                     |
 | :------------------- | :------------------------------------------------------ | :------------------------ | :--------------------------------- |

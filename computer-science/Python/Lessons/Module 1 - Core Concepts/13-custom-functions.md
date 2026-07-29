@@ -28,8 +28,8 @@ boot_system()  # Runs a second time instantly!
 ___
 ## 🎛️ Inputs: Parameters vs. Arguments
 To make a function dynamic, you can design input slots inside its parentheses. 
-* **Parameter (The Slot)**: The temporary variable label written inside the function definition blueprint.
-* **Argument (The Real Data)**: The actual value you pass into those slots when you call the function to run.
+* **Parameter (The Slot)**: The **temporary variable** label written inside the function definition blueprint.
+* **Argument (The Real Data)**: The **actual value** you pass into those slots when you call the function to run.
 
 ```python
 # 'username' and 'access_tier' are input PARAMETERS (slots)
