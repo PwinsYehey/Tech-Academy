@@ -9,6 +9,7 @@ date_created: 2026-07-21
 # Variables and Data Types
 
 In Python, **variables** are like labeled storage boxes. You put data inside them so you can use and manipulate it later. 
+A **data type** is an official classification category that tells Python's engine what kind of value a variable is holding. This category dictates exactly what operations and behaviors are mathematically allowed on that piece of information.
 ___
 ## 📦 Declaring Variables
 Python is **dynamically typed**. You do not need to declare the type of data beforehand. Python figures it out automatically.
