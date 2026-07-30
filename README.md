@@ -1,6 +1,7 @@
 # Tech-Academy
-Welcome to **Tech Academy**, my personal tech library and knowledge base! 
 
+Welcome to **Tech Academy**, my personal tech library and knowledge base! 
+___
 ## 🧠 The Learning Philosophy
 The notes inside this library do not follow rigid, traditional academic curriculum paths. Instead, this vault captures a **self-taught, intuitive approach to engineering**. 
 
@@ -8,5 +9,5 @@ Every concept is reverse-engineered, broken down into universal analogies, mappe
 ___
 ## 🛠️ The Toolkit Needed
 - **Notebook**: Obsidian MD
-- **Compiler**: Python 3.x via Embedded Code Runners
+	- **Plugins**: Execute Code
 - **Version Control**: Git / GitHub Automation
