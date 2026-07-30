@@ -12,7 +12,7 @@ date_created: 2026-07-30
 Pythons **naming convention** is a strict formatting protocol that dictates how identifiers (variables, functions, classes, and files) are written in text. 
 
 Adhering to these rules guarantees your scripts match universal industry design patterns, allowing teams to read, maintain, and scan your software architecture effortlessly.
-## Core Syntax Rules (Mandatory)
+### Core Syntax Rules (Mandatory)
 If you break these rules, Python will throw an immediate `SyntaxError`:
 - **No Spaces Allowed**: Use underscores (`_`) instead of spaces.
 - **Cannot Start with Numbers**: `user_1` is valid, but `1_user` will crash.

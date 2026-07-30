@@ -3,7 +3,6 @@ tags:
   - python/cheat-sheet
   - python/data-structures
 links:
-  - "[[python_roadmap]]"
   - "[[09-lists]]"
   - "[[10-tuples]]"
   - "[[11-dictionaries]]"
@@ -22,7 +21,7 @@ Selecting the correct data structure dictates how efficiently your code handles 
 | **`tuple`** | `()`     | Numeric Indexes (`0,1,2`) | **No** (Frozen) | **Yes**                      | Protecting data from accidental changes.  |
 | **`dict`**  | `{}`     | Key Labels (`key:val`)    | **Yes**         | **No** (Keys must be unique) | Fast lookups using a custom label.        |
 | **`set`**   | `{}`     | **Unordered Chaos**       | **Yes**         | **No**                       | De-duplicating data and math set logic.   |
-
+____
 ## 🔧 Core Functions & Methods
 Use these native code tools to **measure**, **modify**, and **manipulate** your active collection data containers:
 ### 📁 List 
