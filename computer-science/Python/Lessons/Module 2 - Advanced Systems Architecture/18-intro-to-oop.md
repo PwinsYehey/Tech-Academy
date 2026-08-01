@@ -5,10 +5,8 @@ tags:
   - architecture
 links:
   - "[[python_roadmap]]"
-  - "[[Dictionaries]]"
 date_created: 2026-08-01
 ---
-
 # Intro to OOP (Object-Oriented Programming)
 
 **Object-Oriented Programming (OOP)** is an advanced programming **paradigm** (a philosophy and mental model) where code architecture is organized into secure, self-contained, real-world structural capsules called **Objects**. 
@@ -42,8 +40,8 @@ The entire architecture of OOP relies on understanding two distinct concepts: **
 ---
 ## 🔧 Vocabulary Upgrades
 When variables and functions are moved inside a Class blueprint capsule, the software engineering community assigns them upgraded professional names:
-*   **Attributes (Variables)**: Variables locked inside the object that track its internal **state** or characteristics (e.g., `balance`, `username`, `color`).
-*   **Methods (Functions)**: Specialized function tools locked inside the object that drive its **behavior** or calculations (e.g., `.withdraw()`, `.accelerate()`).
+*   **Attributes (Variables)**: Variables locked inside the object that track its internal **state** or characteristics (e.g., `brand`, `storage_gb`, `battery_pct`).
+*   **Methods (Functions)**: Specialized function tools locked inside the object that drive its **behavior** or calculations (e.g., `.send_text()`, `.charge_battery()`).
 
 ```
  ┌────────────────────────────────────────────────────────┐
@@ -71,9 +69,10 @@ When variables and functions are moved inside a Class blueprint capsule, the sof
            └──────────────────────────────────────┘
                     Updates to a NEW STATE
 ```
-1. The user triggers a method's **Behavior** (e.g., `.receive_damage(50)`).
-2. The method logic reads the current **State** attribute (e.g., `health = 100`).
-3. The behavior calculates the math and updates the attribute box, transitioning the object to a **New State** (e.g., `health = 50`).
+1. The user triggers a method's **Behavior** (e.g., calling `.charge_battery()`). 
+2. The method logic reads the current **State** attribute (e.g., `battery_pct = 82`). 
+3. The behavior calculates the power increase and updates the attribute box, transitioning the object to a **New State** (e.g., `battery_pct = 100`).
+
 ---
 ## 🛠️ Practice Playground
 Run this advanced simulation script inside your vault sandbox to watch Python dynamically manufacture two independent, self-contained transaction accounts from a single custom Class blueprint:
@@ -133,3 +132,6 @@ Write a single Python script that implements these exact architectural steps:
 
 
 ```
+
+###### ⏭️ Next Lesson
+[**Module 2 — Lesson 19: Constructor Instance Control**](obsidian://open?vault=Tech-Academy&file=computer-science%2FPython%2FLessons%2FModule%202%20-%20Advanced%20Systems%20Architecture%2F19-constructor-instance-control)
